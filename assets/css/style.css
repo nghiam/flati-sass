@@ -1,17 +1,69 @@
-/* Error: expected ":".
- *    ,
- * 17 |                 .liens 
- *    |                        ^
- *    '
- *   assets\sass\style.sass 17:24  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ":".\a    \2577 \a 17 \2502                  .liens \d\a    \2502                         ^\a    \2575 \a   assets\\sass\\style.sass 17:24  root stylesheet';
+body {
+  margin: 0;
+  width: 100%;
 }
+body header {
+  background-color: #080808b6;
+  color: white;
+  width: 100%;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: center;
+}
+body header span {
+  margin-right: 200px;
+}
+
+.liens {
+  display: flex;
+}
+.liens ul {
+  display: flex;
+  justify-content: center;
+}
+.liens ul li {
+  color: white;
+  text-transform: uppercase;
+  font-size: small;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 10px 0 10px;
+}
+
+.image-header {
+  width: 100%;
+}
+
+.text {
+  background-color: #e9e6e1;
+  margin: 0;
+}
+.text p {
+  margin: 0;
+  padding: 50px 0 50px 0;
+  text-align: center;
+  font-size: 32px;
+}
+.text p .bold {
+  font-weight: bold;
+}
+.text p .bg-col {
+  background-color: #4FA0C8;
+  color: white;
+}
+.text p .blue-col {
+  color: #4FA0C8;
+}
+
+.carte {
+  border: solid black 1px;
+  margin: 30px 30px 30px 30px;
+}
+
+.boite {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
